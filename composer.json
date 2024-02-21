@@ -1,0 +1,25 @@
+{
+  "name": "business-solution/erp",
+  "description": "Sistema ERP",
+  "type": "project",
+  "authors": [
+      {
+          "name": "cmm1401",
+          "email": "cmm14012000@gmail.com"
+      }
+  ],
+  "autoload": {
+    "psr-4": {
+        "Modules\\": "modules/",
+        "Model\\": "models",
+        "MVC\\": "./"
+    }
+  },
+  "config": {
+      "optimize-autoloader": true
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.6",
+    "vlucas/phpdotenv": "^5.5"
+  }
+}

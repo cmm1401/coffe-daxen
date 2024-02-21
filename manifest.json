@@ -1,0 +1,38 @@
+{
+    "name": "Business Solution",
+    "short_name": "B-S",
+    "description": "Business Solution",
+    "lang": "es-ES",
+    "start_url": "sistem/login.php",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#93c3ed",
+    "icons": [
+        {
+            "src": "./favicon.ico",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "images/BusinessSolution144x144.ico",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "images/BusinessSolution192x192.ico",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/BusinessSolution256x256.ico",
+            "sizes": "256x256",
+            "type": "image/png"
+        }  ,
+        {
+            "src": "images/ebssystem512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }    
+    ],
+    "background_color": "#93c3ed"
+}
